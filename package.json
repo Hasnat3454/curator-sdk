@@ -1,0 +1,20 @@
+{
+  "name": "geo-bounty-sdk",
+  "version": "1.0.0",
+  "description": "Generic SDK for uploading bounty data to the Geo knowledge graph",
+  "type": "module",
+  "scripts": {
+    "import": "npx tsx import.ts",
+    "typecheck": "npx tsc --noEmit"
+  },
+  "dependencies": {
+    "@geoprotocol/geo-sdk": "^0.7.0",
+    "csv-parse": "^5.5.6",
+    "dotenv": "^17.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
