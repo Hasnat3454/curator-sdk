@@ -9,9 +9,7 @@ import {
 } from "@geoprotocol/geo-sdk";
 import { SpaceRegistryAbi } from "@geoprotocol/geo-sdk/abis";
 import { TESTNET } from "@geoprotocol/geo-sdk/contracts";
-import { API_ENDPOINTS } from "./constants.js";
-// TYPES.property and TYPES.type are used for type-scoped entity lookups (Issue #2 fix)
-import { TYPES } from "./constants.js";
+import { API_ENDPOINTS, TYPES } from "./constants.js";
 
 export interface PublishResult {
   success: boolean;
@@ -51,10 +49,6 @@ export async function gql(
 
 // ─── Entity lookup helpers ────────────────────────────────────────────────────
 
-/**
- * Look up any entity by name (free-text search, no type filter).
- * Used for deduplication checks before creating new entities.
- */
 export async function queryEntityByName(
   name: string,
   network: "TESTNET" | "MAINNET" = "TESTNET"
@@ -74,14 +68,6 @@ export async function queryEntityByName(
   }
 }
 
-/**
- * Look up a PROPERTY entity by name, filtered to type=Property.
- *
- * FIX (Issue #2): The generic search() returns ALL entity types — content
- * entities, Role entities, etc. — so for common names like "Creator" it
- * could return a non-property entity and corrupt the knowledge graph.
- * We filter by TYPES.property to guarantee we only match actual properties.
- */
 export async function queryPropertyByName(
   name: string,
   network: "TESTNET" | "MAINNET" = "TESTNET"
@@ -101,12 +87,6 @@ export async function queryPropertyByName(
   }
 }
 
-/**
- * Look up a TYPE entity by name, filtered to type=Type.
- *
- * FIX (Issue #2): Same as above — generic search() would match any entity
- * named e.g. "Dataset", including content entities. We filter to TYPES.type.
- */
 export async function queryTypeByName(
   name: string,
   network: "TESTNET" | "MAINNET" = "TESTNET"
@@ -182,14 +162,11 @@ export async function publishOps(config: PublishConfig): Promise<PublishResult> 
     let to: `0x${string}`, calldata: `0x${string}`, cid: string, editId: string;
 
     if (spaceType === "PERSONAL") {
-      // FIX (Issue #5 + v0.13.1 breaking change):
-      // v0.13.1 changed personalSpace.publishEdit to expect the personal space ID
-      // as author (Person Entity ID / UUID), not the wallet address.
       const r = await personalSpace.publishEdit({
         name: editName,
         spaceId,
         ops,
-        author: spaceId,          // v0.13.1: personal space ID, not wallet address
+        author: spaceId,
         network: network as "TESTNET",
       });
       ({ cid, editId, to, calldata } = r);
@@ -207,14 +184,10 @@ export async function publishOps(config: PublishConfig): Promise<PublishResult> 
       if (!members.some((m: any) => m.memberSpaceId === callerSpaceId))
         throw new Error(`Space ${callerSpaceId} is not a member/editor of ${spaceId}`);
 
-      // FIX (Issue #5):
-      // Original code passed callerSpaceId as author (wrong).
-      // v0.7.0 expected wallet address; v0.13.1 expects Person Entity ID (UUID).
-      // callerSpaceId is a UUID — it IS the proposer's person entity on Geo.
       const r = await daoSpace.proposeEdit({
         name: editName,
         ops,
-        author: callerSpaceId,                              // person entity ID (space UUID)
+        author: callerSpaceId,
         network: network as "TESTNET",
         callerSpaceId: `0x${callerSpaceId}` as `0x${string}`,
         daoSpaceId: `0x${spaceId}` as `0x${string}`,

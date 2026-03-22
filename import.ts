@@ -6,8 +6,6 @@ import { Graph } from "@geoprotocol/geo-sdk";
 import type { Op, Id, DataType } from "@geoprotocol/geo-sdk";
 import type { BountyConfig, FieldType, ImportResult } from "./src/types.js";
 import { queryEntityByName, queryPropertyByName, queryTypeByName, publishOps } from "./src/functions.js";
-// FIX (Issue #6): Import and USE TYPES/PROPERTIES constants — previously dead code.
-// These IDs are used in the type-filtered property/type lookup queries inside functions.ts.
 import { TYPES } from "./src/constants.js";
 
 // ─── CLI args ─────────────────────────────────────────────────────────────────
@@ -17,7 +15,6 @@ function parseArgs() {
   const get = (flag: string) => { const i = args.indexOf(flag); return i !== -1 ? args[i + 1] : undefined; };
   const config = get("--config");
   const data = get("--data");
-  // FIX (Issue #8): --dry-run flag — preview ops without submitting any transaction.
   const dryRun = args.includes("--dry-run");
   if (!config || !data) {
     console.error("Usage: npx tsx import.ts --config <config.json> --data <data.json|data.csv> [--dry-run]");
@@ -44,33 +41,21 @@ function loadRecords(filePath: string): Record<string, unknown>[] {
 
 // ─── Type helpers ─────────────────────────────────────────────────────────────
 
-/**
- * Map FieldType to the SDK v0.13.1 DataType string for createProperty().
- *
- * FIX (Issue #4): v0.7.0 used "INT64"/"FLOAT64"; v0.13.1 uses "INTEGER"/"FLOAT".
- * FIX (Issue #7): "url" maps to "TEXT" (no URL-specific DataType in the SDK).
- *                  URL semantics are conveyed by using PROPERTIES.web_url as wellKnownId.
- */
 function toGeoDataType(t: FieldType): DataType {
   if (t === "int64")    return "INTEGER";
   if (t === "float64")  return "FLOAT";
   if (t === "bool")     return "BOOLEAN";
   if (t === "date")     return "DATE";
   if (t === "relation") return "RELATION";
-  return "TEXT";  // text and url
+  return "TEXT";
 }
 
-/**
- * Map FieldType to the SDK v0.13.1 TypedValue type string for entity values.
- *
- * FIX (Issue #4): v0.7.0 used "int64"/"float64"/"bool"; v0.13.1 uses "integer"/"float"/"boolean".
- */
 function toValueType(t: FieldType): "text" | "integer" | "float" | "boolean" | "date" {
   if (t === "int64")   return "integer";
   if (t === "float64") return "float";
   if (t === "bool")    return "boolean";
   if (t === "date")    return "date";
-  return "text";  // text and url
+  return "text";
 }
 
 function coerce(value: unknown, t: FieldType): unknown {
@@ -97,8 +82,6 @@ async function resolveProperty(
   network: "TESTNET" | "MAINNET"
 ): Promise<string> {
   if (wellKnownId) return wellKnownId;
-  // FIX (Issue #2): Uses queryPropertyByName which now filters by TYPES.property,
-  // preventing wrong entity IDs (e.g. Role entities) from being used as properties.
   const existing = await queryPropertyByName(propertyName, network);
   if (existing) return existing;
   const result = Graph.createProperty({ name: propertyName, dataType: toGeoDataType(type) });
@@ -114,7 +97,6 @@ async function resolveType(
   network: "TESTNET" | "MAINNET"
 ): Promise<string> {
   if (wellKnownId) return wellKnownId;
-  // FIX (Issue #2): Uses queryTypeByName which now filters by TYPES.type.
   const existing = await queryTypeByName(name, network);
   if (existing) return existing;
   const result = Graph.createType({ name, properties: propertyIds as Id[] });
@@ -136,9 +118,8 @@ async function runImport(
 
   console.log(`\nBounty  : ${config.bountyName}`);
   console.log(`Records : ${records.length} | Network: ${network}`);
-  // FIX (Issue #1 / spaceId): Show target space so curators can verify before publishing.
   const targetSpaceId = config.spaceId ?? process.env.SPACE_ID;
-  console.log(`Space   : ${targetSpaceId ?? "(personal space — set spaceId in config or SPACE_ID env)"}\n`);
+  console.log(`Space   : ${targetSpaceId ?? "(personal space)"}\n`);
   if (dryRun) console.log("  [DRY RUN] No transaction will be submitted.\n");
 
   const valueFields    = config.fields.filter(f => f.type !== "relation");
@@ -167,9 +148,6 @@ async function runImport(
     const lookup = new Map<string, string>();
     relLookup.set(f.column, lookup);
 
-    // FIX (Issue #3): Resolve the target entity type once per relation field so
-    // newly created relation targets get typed (e.g. Organization, Topic) rather
-    // than being created as untyped shells with types: [].
     let targetTypeId: string | undefined;
     if (f.relationEntityType) {
       targetTypeId = await queryTypeByName(f.relationEntityType, network) ?? undefined;
@@ -185,7 +163,7 @@ async function runImport(
       } else {
         const e = Graph.createEntity({
           name: v,
-          types: targetTypeId ? [targetTypeId as Id] : [],  // FIX: use resolved type
+          types: targetTypeId ? [targetTypeId as Id] : [],
           values: [],
         });
         relOps.push(...e.ops);
@@ -223,7 +201,6 @@ async function runImport(
       if (raw === undefined || raw === null || raw === "") continue;
       const v = coerce(raw, f.type);
       if (v === null) continue;
-      // FIX (Issue #4): toValueType now returns correct v0.13.1 strings (integer/float/boolean).
       values.push({ property: propIdMap.get(f.column)! as Id, type: toValueType(f.type), value: v });
     }
 
@@ -257,7 +234,6 @@ async function runImport(
     return result;
   }
 
-  // FIX (Issue #8): Dry-run stops here — no transaction submitted.
   if (dryRun) {
     console.log("\n[DRY RUN] Would publish the ops above. Re-run without --dry-run to submit.");
     return result;
@@ -271,8 +247,6 @@ async function runImport(
     privateKey,
     useSmartAccount: true,
     network,
-    // FIX (Issue #1 / spaceId): Pass target space from config (or env fallback)
-    // so publishes go to the correct DAO space, not always the personal space.
     spaceId: targetSpaceId,
   });
 
@@ -309,7 +283,6 @@ const records = loadRecords(dataPath);
 console.log(`Config : ${configPath}`);
 console.log(`Data   : ${dataPath} (${records.length} records)`);
 
-// Dry-run can proceed without a private key
 const key = PRIVATE_KEY ?? "0x0000000000000000000000000000000000000000000000000000000000000000";
 const importResult = await runImport(config, records, key as `0x${string}`, dryRun);
 
