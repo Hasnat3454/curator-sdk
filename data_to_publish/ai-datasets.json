@@ -270,16 +270,6 @@
     "release_year": "2018"
   },
   {
-    "name": "WebVid-10M",
-    "description": "10.7M video clips with textual descriptions scraped from stock video websites.",
-    "creator": "Max Bain et al., University of Oxford (VGG Group)",
-    "size": "10.7M clips",
-    "data_formats": "MP4, CSV",
-    "licence": "Custom Non-Commercial",
-    "web_url": "https://github.com/m-bain/webvid",
-    "release_year": "2021"
-  },
-  {
     "name": "VQA v2",
     "description": "1.1M QA pairs (approximately 443K unique questions with ~2.5 answers each) about 265K COCO images requiring visual and commonsense reasoning.",
     "creator": "Virginia Tech / Georgia Tech",
@@ -590,16 +580,6 @@
     "release_year": "2024"
   },
   {
-    "name": "SlimPajama-627B",
-    "description": "627B token deduplicated and cleaned version of RedPajama-1T, removing 49.6% of bytes for efficient LLM training.",
-    "creator": "Cerebras Systems",
-    "size": "895 GB",
-    "data_formats": "JSONL",
-    "licence": "Apache 2.0",
-    "web_url": "https://huggingface.co/cerebras",
-    "release_year": "2023"
-  },
-  {
     "name": "MNIST",
     "description": "70K grayscale 28×28 handwritten digit images (0–9); the most iconic machine learning benchmark dataset since 1998.",
     "creator": "NIST / Yann LeCun, Corinna Cortes, Chris Burges",
@@ -608,16 +588,6 @@
     "licence": "Public Domain",
     "web_url": "https://huggingface.co/datasets/ylecun/mnist",
     "release_year": "1998"
-  },
-  {
-    "name": "PASCAL VOC 2012",
-    "description": "11,530 images annotated with bounding boxes and pixel-level segmentation for 20 object categories; major detection benchmark.",
-    "creator": "Visual Object Classes Challenge (Oxford/Cambridge)",
-    "size": "11,530 images",
-    "data_formats": "JPEG, XML",
-    "licence": "Custom",
-    "web_url": "http://host.robots.ox.ac.uk/pascal/VOC/voc2012/",
-    "release_year": "2012"
   },
   {
     "name": "Cityscapes",
@@ -778,16 +748,6 @@
     "licence": "Research Only",
     "web_url": "https://huggingface.co/datasets/nlphuji/flickr30k",
     "release_year": "2014"
-  },
-  {
-    "name": "TextVQA",
-    "description": "45,336 questions about text visible in 28,408 natural images, requiring reading and understanding of text within scenes.",
-    "creator": "Meta AI / Georgia Tech",
-    "size": "45,336 questions",
-    "data_formats": "JSON, JPEG",
-    "licence": "CC BY 4.0",
-    "web_url": "https://textvqa.org/",
-    "release_year": "2019"
   },
   {
     "name": "NoCaps",
