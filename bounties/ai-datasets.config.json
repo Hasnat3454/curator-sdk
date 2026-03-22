@@ -1,0 +1,57 @@
+{
+  "bountyName": "Top 200 AI Datasets",
+  "editName": "Add Top 200 AI Datasets",
+  "spaceId": "7429dfda5f14718fc6f603622bade857",
+  "network": "TESTNET",
+  "entityType": {
+    "name": "Dataset",
+    "description": "A machine learning dataset used for training or evaluating AI models"
+  },
+  "fields": [
+    {
+      "column": "name",
+      "propertyName": "Name",
+      "wellKnownId": "a126ca530c8e48d5b88882c734c38935",
+      "type": "text",
+      "required": true
+    },
+    {
+      "column": "description",
+      "propertyName": "Description",
+      "wellKnownId": "9b1f76ff9711404c861e59dc3fa7d037",
+      "type": "text"
+    },
+    {
+      "column": "creator",
+      "propertyName": "Creator",
+      "type": "text"
+    },
+    {
+      "column": "size",
+      "propertyName": "Size",
+      "type": "text"
+    },
+    {
+      "column": "data_formats",
+      "propertyName": "Data Formats",
+      "type": "text"
+    },
+    {
+      "column": "licence",
+      "propertyName": "Licence",
+      "type": "text"
+    },
+    {
+      "column": "web_url",
+      "propertyName": "Web URL",
+      "wellKnownId": "eed38e74e67946bf8a42ea3e4f8fb5fb",
+      "type": "url"
+    },
+    {
+      "column": "release_year",
+      "propertyName": "Release Year",
+      "type": "int64"
+    }
+  ],
+  "deduplicateByField": "name"
+}

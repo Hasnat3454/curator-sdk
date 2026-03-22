@@ -22,6 +22,7 @@ export interface BountyConfig {
   fields: FieldConfig[];
   deduplicateByField?: string;
   network?: "TESTNET" | "MAINNET";
+  spaceId?: string;
 }
 
 export interface ImportResult {
