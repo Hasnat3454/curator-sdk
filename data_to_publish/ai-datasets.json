@@ -120,13 +120,13 @@
     "release_year": "2014"
   },
   {
-    "name": "LAION-5B",
+    "name": "Re-LAION-5B",
     "description": "5.85 billion image-text pairs filtered from Common Crawl; used to train Stable Diffusion and CLIP. Original LAION-5B was taken down Dec 2023; replaced by Re-LAION-5B (safety-filtered, July 2024).",
     "creator": "LAION e.V.",
     "size": "220,000 GB",
     "data_formats": "Parquet",
     "licence": "CC BY 4.0",
-    "web_url": "https://huggingface.co/collections/laion/re-laion-5b-research",
+    "web_url": "https://laion.ai/blog/relaion5b/",
     "release_year": "2022"
   },
   {
@@ -193,7 +193,7 @@
     "name": "Common Voice",
     "description": "Mozilla's crowd-sourced multilingual speech dataset with 30,000+ validated hours across 100+ languages.",
     "creator": "Mozilla Foundation",
-    "size": "56 GB",
+    "size": "600 GB",
     "data_formats": "MP3, TSV",
     "licence": "CC0",
     "web_url": "https://commonvoice.mozilla.org/",
@@ -271,7 +271,7 @@
   },
   {
     "name": "VQA v2",
-    "description": "1.1M QA pairs (approximately 443K unique questions with ~2.5 answers each) about 265K COCO images requiring visual and commonsense reasoning.",
+    "description": "1.1M QA pairs (approximately 443K unique questions with 10 answers each) about 265K COCO images requiring visual and commonsense reasoning.",
     "creator": "Virginia Tech / Georgia Tech",
     "size": "12 GB",
     "data_formats": "JSON, JPEG",
