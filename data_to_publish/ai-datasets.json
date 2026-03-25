@@ -21,7 +21,7 @@
   },
   {
     "name": "The Pile",
-    "description": "825 GB diverse English text corpus from 22 data sources designed for training large language models.",
+    "description": "886 GB diverse English text corpus from 22 data sources designed for training large language models.",
     "creator": "EleutherAI",
     "size": "886 GB",
     "data_formats": "JSONL",
@@ -191,7 +191,7 @@
   },
   {
     "name": "Common Voice",
-    "description": "Mozilla's crowd-sourced multilingual speech dataset with 20,000+ validated hours across 100+ languages.",
+    "description": "Mozilla's crowd-sourced multilingual speech dataset with 30,000+ validated hours across 100+ languages.",
     "creator": "Mozilla Foundation",
     "size": "56 GB",
     "data_formats": "MP3, TSV",
@@ -221,10 +221,10 @@
   },
   {
     "name": "The Stack",
-    "description": "Source code in 358 programming languages with permissive licenses, for training large code LLMs. v1.0: 3 TB, v1.1: 6 TB.",
+    "description": "Source code in 358 programming languages with permissive licenses, for training large code LLMs.",
     "creator": "BigCode / Hugging Face",
     "size": "6,400 GB",
-    "data_formats": "JSON",
+    "data_formats": "Parquet",
     "licence": "Various Open-Source",
     "web_url": "https://huggingface.co/datasets/bigcode/the-stack",
     "release_year": "2022"
@@ -605,7 +605,7 @@
     "creator": "MIT CSAIL",
     "size": "29.27 GB",
     "data_formats": "JPEG",
-    "licence": "CC BY",
+    "licence": "Non-Commercial Research Only",
     "web_url": "https://github.com/CSAILVision/places365",
     "release_year": "2017"
   },
@@ -874,7 +874,7 @@
     "description": "80 carefully crafted multi-turn conversational questions across 8 categories for evaluating LLM instruction-following and reasoning quality.",
     "creator": "LMSYS / UC Berkeley",
     "size": "0.00003 GB",
-    "data_formats": "Parquet",
+    "data_formats": "JSONL",
     "licence": "Apache 2.0",
     "web_url": "https://huggingface.co/datasets/HuggingFaceH4/mt_bench_prompts",
     "release_year": "2023"
