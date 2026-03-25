@@ -193,7 +193,7 @@
     "name": "Common Voice",
     "description": "Mozilla's crowd-sourced multilingual speech dataset with 30,000+ validated hours across 100+ languages.",
     "creator": "Mozilla Foundation",
-    "size": "600 GB",
+    "size": "399 GB",
     "data_formats": "MP3, TSV",
     "licence": "CC0",
     "web_url": "https://commonvoice.mozilla.org/",
