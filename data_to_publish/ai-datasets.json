@@ -7,7 +7,7 @@
     "data_formats": "JSON",
     "licence": "CC BY-SA 4.0",
     "web_url": "https://rajpurkar.github.io/SQuAD-explorer/",
-    "release_year": "2018"
+    "release_date": "June 2018"
   },
   {
     "name": "GLUE Benchmark",
@@ -17,7 +17,7 @@
     "data_formats": "TSV, JSON",
     "licence": "Various",
     "web_url": "https://gluebenchmark.com/",
-    "release_year": "2018"
+    "release_date": "October 2018"
   },
   {
     "name": "The Pile",
@@ -27,7 +27,7 @@
     "data_formats": "JSONL",
     "licence": "Various",
     "web_url": "https://pile.eleuther.ai/",
-    "release_year": "2020"
+    "release_date": "December 2020"
   },
   {
     "name": "C4 (Colossal Clean Crawled Corpus)",
@@ -37,7 +37,7 @@
     "data_formats": "JSONL",
     "licence": "ODC-BY",
     "web_url": "https://huggingface.co/datasets/allenai/c4",
-    "release_year": "2019"
+    "release_date": "October 2019"
   },
   {
     "name": "Common Crawl",
@@ -47,17 +47,17 @@
     "data_formats": "WARC, WET, WAT",
     "licence": "Public Domain",
     "web_url": "https://commoncrawl.org/",
-    "release_year": "2011"
+    "release_date": "September 2011"
   },
   {
     "name": "OpenWebText",
     "description": "Open reproduction of OpenAI's WebText: Reddit-linked web pages (3+ upvotes) used to train GPT-2.",
-    "creator": "Aaron Gokaslan & Vanya Cohen, Brown University",
+    "creator": "Brown University",
     "size": "38 GB",
     "data_formats": "Text",
     "licence": "MIT",
     "web_url": "https://huggingface.co/datasets/Skylion007/openwebtext",
-    "release_year": "2019"
+    "release_date": "March 2019"
   },
   {
     "name": "RedPajama-Data-1T",
@@ -67,7 +67,7 @@
     "data_formats": "JSONL",
     "licence": "Various",
     "web_url": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T",
-    "release_year": "2023"
+    "release_date": "April 2023"
   },
   {
     "name": "BookCorpus",
@@ -77,7 +77,7 @@
     "data_formats": "Text",
     "licence": "Unknown",
     "web_url": "https://huggingface.co/datasets/bookcorpus",
-    "release_year": "2015"
+    "release_date": "June 2015"
   },
   {
     "name": "WikiText-103",
@@ -87,27 +87,27 @@
     "data_formats": "Text",
     "licence": "CC BY-SA 4.0",
     "web_url": "https://huggingface.co/datasets/Salesforce/wikitext",
-    "release_year": "2016"
+    "release_date": "December 2016"
   },
   {
     "name": "MultiNLI",
     "description": "412K sentence pairs across 10 genres for natural language inference (textual entailment).",
-    "creator": "NYU (Adina Williams, Nikita Nangia, Samuel Bowman)",
+    "creator": "NYU",
     "size": "0.30 GB",
     "data_formats": "JSON",
     "licence": "CC BY 3.0",
     "web_url": "https://cims.nyu.edu/~sbowman/multinli/",
-    "release_year": "2017"
+    "release_date": "April 2017"
   },
   {
     "name": "ImageNet (ILSVRC)",
     "description": "14M labeled images across ~21,841 synsets (full ImageNet); ILSVRC competition uses 1.2M images across 1,000 categories — the landmark dataset that drove the deep learning revolution.",
-    "creator": "Princeton University (Fei-Fei Li et al.)",
+    "creator": "Princeton University",
     "size": "155 GB",
     "data_formats": "JPEG",
     "licence": "Non-Commercial Research Only",
     "web_url": "https://www.image-net.org/",
-    "release_year": "2009"
+    "release_date": "June 2009"
   },
   {
     "name": "COCO (Common Objects in Context)",
@@ -117,7 +117,7 @@
     "data_formats": "JPEG, JSON",
     "licence": "CC BY 4.0",
     "web_url": "https://cocodataset.org/",
-    "release_year": "2014"
+    "release_date": "May 2014"
   },
   {
     "name": "Re-LAION-5B",
@@ -127,7 +127,7 @@
     "data_formats": "Parquet",
     "licence": "CC BY 4.0",
     "web_url": "https://huggingface.co/collections/laion/re-laion-5b-research",
-    "release_year": "2022"
+    "release_date": "October 2023"
   },
   {
     "name": "Open Images v7",
@@ -137,7 +137,7 @@
     "data_formats": "JPEG, CSV",
     "licence": "CC BY 4.0",
     "web_url": "https://storage.googleapis.com/openimages/web/index.html",
-    "release_year": "2016"
+    "release_date": "September 2022"
   },
   {
     "name": "ADE20K",
@@ -147,7 +147,7 @@
     "data_formats": "JPEG, PNG",
     "licence": "BSD 3-Clause",
     "web_url": "https://groups.csail.mit.edu/vision/datasets/ADE20K/",
-    "release_year": "2017"
+    "release_date": "July 2017"
   },
   {
     "name": "CelebA",
@@ -157,7 +157,7 @@
     "data_formats": "JPEG, TXT",
     "licence": "Non-Commercial Research Only",
     "web_url": "https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html",
-    "release_year": "2015"
+    "release_date": "December 2015"
   },
   {
     "name": "CIFAR-10",
@@ -167,7 +167,7 @@
     "data_formats": "Pickle",
     "licence": "No Explicit License",
     "web_url": "https://www.cs.toronto.edu/~kriz/cifar.html",
-    "release_year": "2009"
+    "release_date": "April 2009"
   },
   {
     "name": "LAION-400M",
@@ -177,7 +177,7 @@
     "data_formats": "Parquet",
     "licence": "CC BY 4.0",
     "web_url": "https://huggingface.co/datasets/laion/laion400m",
-    "release_year": "2021"
+    "release_date": "August 2021"
   },
   {
     "name": "LibriSpeech",
@@ -187,7 +187,7 @@
     "data_formats": "FLAC, TXT",
     "licence": "CC BY 4.0",
     "web_url": "https://www.openslr.org/12/",
-    "release_year": "2015"
+    "release_date": "April 2015"
   },
   {
     "name": "Common Voice",
@@ -197,7 +197,7 @@
     "data_formats": "MP3, TSV",
     "licence": "CC0",
     "web_url": "https://commonvoice.mozilla.org/",
-    "release_year": "2017"
+    "release_date": "July 2017"
   },
   {
     "name": "VoxCeleb2",
@@ -207,7 +207,7 @@
     "data_formats": "WAV, MP4",
     "licence": "Non-Commercial Research Only",
     "web_url": "https://www.robots.ox.ac.uk/~vgg/data/voxceleb/",
-    "release_year": "2018"
+    "release_date": "June 2018"
   },
   {
     "name": "GigaSpeech",
@@ -217,7 +217,7 @@
     "data_formats": "Opus, JSONL",
     "licence": "Apache 2.0",
     "web_url": "https://github.com/SpeechColab/GigaSpeech",
-    "release_year": "2021"
+    "release_date": "October 2021"
   },
   {
     "name": "The Stack",
@@ -227,7 +227,7 @@
     "data_formats": "Parquet",
     "licence": "Various Open-Source",
     "web_url": "https://huggingface.co/datasets/bigcode/the-stack",
-    "release_year": "2022"
+    "release_date": "November 2022"
   },
   {
     "name": "CodeSearchNet",
@@ -237,7 +237,7 @@
     "data_formats": "JSONL",
     "licence": "MIT",
     "web_url": "https://github.com/github/CodeSearchNet",
-    "release_year": "2019"
+    "release_date": "September 2019"
   },
   {
     "name": "HumanEval",
@@ -247,7 +247,7 @@
     "data_formats": "JSON",
     "licence": "MIT",
     "web_url": "https://github.com/openai/human-eval",
-    "release_year": "2021"
+    "release_date": "July 2021"
   },
   {
     "name": "MBPP (Mostly Basic Python Problems)",
@@ -257,7 +257,7 @@
     "data_formats": "JSON",
     "licence": "CC BY 4.0",
     "web_url": "https://github.com/google-research/google-research/tree/master/mbpp",
-    "release_year": "2021"
+    "release_date": "August 2021"
   },
   {
     "name": "Conceptual Captions (CC3M)",
@@ -267,7 +267,7 @@
     "data_formats": "TSV",
     "licence": "Custom (Attribution)",
     "web_url": "https://github.com/google-research-datasets/conceptual-captions",
-    "release_year": "2018"
+    "release_date": "September 2018"
   },
   {
     "name": "VQA v2",
@@ -277,7 +277,7 @@
     "data_formats": "JSON, JPEG",
     "licence": "CC BY 4.0",
     "web_url": "https://visualqa.org/",
-    "release_year": "2017"
+    "release_date": "May 2017"
   },
   {
     "name": "ShareGPT4V",
@@ -287,7 +287,7 @@
     "data_formats": "JSON",
     "licence": "CC BY-NC 4.0",
     "web_url": "https://huggingface.co/datasets/Lin-Chen/ShareGPT4V",
-    "release_year": "2023"
+    "release_date": "November 2023"
   },
   {
     "name": "Alpaca",
@@ -297,7 +297,7 @@
     "data_formats": "JSON",
     "licence": "CC BY-NC 4.0",
     "web_url": "https://github.com/tatsu-lab/stanford_alpaca",
-    "release_year": "2023"
+    "release_date": "March 2023"
   },
   {
     "name": "FLAN (Fine-tuned LAnguage Net)",
@@ -307,7 +307,7 @@
     "data_formats": "JSONL",
     "licence": "Apache 2.0",
     "web_url": "https://github.com/google-research/flan",
-    "release_year": "2021"
+    "release_date": "September 2021"
   },
   {
     "name": "Open Assistant (OASST1)",
@@ -317,7 +317,7 @@
     "data_formats": "JSON",
     "licence": "Apache 2.0",
     "web_url": "https://huggingface.co/datasets/OpenAssistant/oasst1",
-    "release_year": "2023"
+    "release_date": "April 2023"
   },
   {
     "name": "UltraChat",
@@ -327,7 +327,7 @@
     "data_formats": "JSONL",
     "licence": "CC BY-NC 4.0",
     "web_url": "https://huggingface.co/datasets/stingning/ultrachat",
-    "release_year": "2023"
+    "release_date": "May 2023"
   },
   {
     "name": "Dolly 15K",
@@ -337,17 +337,17 @@
     "data_formats": "JSON",
     "licence": "CC BY-SA 4.0",
     "web_url": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
-    "release_year": "2023"
+    "release_date": "April 2023"
   },
   {
     "name": "MMLU (Massive Multitask Language Understanding)",
     "description": "14,000+ multiple-choice questions spanning 57 academic subjects to test world knowledge and reasoning.",
-    "creator": "UC Berkeley (Dan Hendrycks)",
+    "creator": "UC Berkeley",
     "size": "0.004 GB",
     "data_formats": "CSV",
     "licence": "MIT",
     "web_url": "https://github.com/hendrycks/test",
-    "release_year": "2020"
+    "release_date": "January 2021"
   },
   {
     "name": "HellaSwag",
@@ -357,7 +357,7 @@
     "data_formats": "JSON",
     "licence": "MIT",
     "web_url": "https://rowanzellers.com/hellaswag/",
-    "release_year": "2019"
+    "release_date": "May 2019"
   },
   {
     "name": "ARC (AI2 Reasoning Challenge)",
@@ -367,7 +367,7 @@
     "data_formats": "JSON",
     "licence": "CC BY-SA 4.0",
     "web_url": "https://allenai.org/data/arc",
-    "release_year": "2018"
+    "release_date": "March 2018"
   },
   {
     "name": "TruthfulQA",
@@ -377,7 +377,7 @@
     "data_formats": "CSV",
     "licence": "Apache 2.0",
     "web_url": "https://github.com/sylinrl/TruthfulQA",
-    "release_year": "2021"
+    "release_date": "October 2021"
   },
   {
     "name": "GSM8K (Grade School Math 8K)",
@@ -387,17 +387,17 @@
     "data_formats": "JSON",
     "licence": "MIT",
     "web_url": "https://github.com/openai/grade-school-math",
-    "release_year": "2021"
+    "release_date": "October 2021"
   },
   {
     "name": "BIG-bench",
     "description": "204 diverse challenging tasks contributed by 100+ researchers to probe LLM capabilities beyond standard benchmarks.",
-    "creator": "Google / Collaborative (100+ researchers)",
+    "creator": "Google",
     "size": "1.26 GB",
     "data_formats": "JSON",
     "licence": "Apache 2.0",
     "web_url": "https://github.com/google/BIG-bench",
-    "release_year": "2022"
+    "release_date": "June 2022"
   },
   {
     "name": "WinoGrande",
@@ -407,7 +407,7 @@
     "data_formats": "JSONL",
     "licence": "Apache 2.0",
     "web_url": "https://winogrande.allenai.org/",
-    "release_year": "2020"
+    "release_date": "November 2019"
   },
   {
     "name": "SuperGLUE",
@@ -417,7 +417,7 @@
     "data_formats": "JSONL",
     "licence": "Various",
     "web_url": "https://super.gluebenchmark.com/",
-    "release_year": "2019"
+    "release_date": "July 2019"
   },
   {
     "name": "MS MARCO",
@@ -427,7 +427,7 @@
     "data_formats": "JSON",
     "licence": "Non-Commercial Research Only",
     "web_url": "https://microsoft.github.io/msmarco/",
-    "release_year": "2016"
+    "release_date": "October 2016"
   },
   {
     "name": "Natural Questions (NQ)",
@@ -437,7 +437,7 @@
     "data_formats": "JSONL",
     "licence": "CC BY-SA 3.0",
     "web_url": "https://ai.google.com/research/NaturalQuestions",
-    "release_year": "2019"
+    "release_date": "January 2019"
   },
   {
     "name": "CoQA",
@@ -447,7 +447,7 @@
     "data_formats": "JSON",
     "licence": "Custom",
     "web_url": "https://stanfordnlp.github.io/coqa/",
-    "release_year": "2018"
+    "release_date": "August 2018"
   },
   {
     "name": "mC4 (Multilingual C4)",
@@ -457,7 +457,7 @@
     "data_formats": "JSONL",
     "licence": "ODC-BY",
     "web_url": "https://huggingface.co/datasets/mc4",
-    "release_year": "2020"
+    "release_date": "October 2019"
   },
   {
     "name": "OSCAR",
@@ -467,7 +467,7 @@
     "data_formats": "JSONL",
     "licence": "Custom / Various",
     "web_url": "https://oscar-project.org/",
-    "release_year": "2019"
+    "release_date": "October 2019"
   },
   {
     "name": "Pile of Law",
@@ -477,7 +477,7 @@
     "data_formats": "JSONL",
     "licence": "CC BY 4.0",
     "web_url": "https://huggingface.co/datasets/pile-of-law/pile-of-law",
-    "release_year": "2022"
+    "release_date": "February 2022"
   },
   {
     "name": "SNLI (Stanford Natural Language Inference)",
@@ -487,17 +487,17 @@
     "data_formats": "JSON",
     "licence": "CC BY-SA 4.0",
     "web_url": "https://huggingface.co/datasets/stanfordnlp/snli",
-    "release_year": "2015"
+    "release_date": "September 2015"
   },
   {
     "name": "CNN/DailyMail",
     "description": "311K CNN and Daily Mail news articles paired with bullet-point highlights for abstractive summarization and reading comprehension.",
-    "creator": "Google DeepMind (Hermann et al.) / Stanford (See et al. for summarization)",
+    "creator": "Google DeepMind / Stanford University",
     "size": "2.51 GB",
     "data_formats": "JSON",
     "licence": "Custom",
     "web_url": "https://huggingface.co/datasets/abisee/cnn_dailymail",
-    "release_year": "2015"
+    "release_date": "June 2015"
   },
   {
     "name": "XSum (Extreme Summarization)",
@@ -507,7 +507,7 @@
     "data_formats": "JSON",
     "licence": "Custom",
     "web_url": "https://huggingface.co/datasets/EdinburghNLP/xsum",
-    "release_year": "2018"
+    "release_date": "October 2018"
   },
   {
     "name": "SST-2 (Stanford Sentiment Treebank)",
@@ -517,7 +517,7 @@
     "data_formats": "TSV",
     "licence": "Custom",
     "web_url": "https://huggingface.co/datasets/stanfordnlp/sst2",
-    "release_year": "2013"
+    "release_date": "October 2013"
   },
   {
     "name": "RACE (ReAding Comprehension from Examinations)",
@@ -527,7 +527,7 @@
     "data_formats": "JSON",
     "licence": "MIT",
     "web_url": "https://huggingface.co/datasets/ehovy/race",
-    "release_year": "2017"
+    "release_date": "September 2017"
   },
   {
     "name": "HotpotQA",
@@ -537,7 +537,7 @@
     "data_formats": "JSON",
     "licence": "CC BY-SA 4.0",
     "web_url": "https://huggingface.co/datasets/hotpotqa/hotpot_qa",
-    "release_year": "2018"
+    "release_date": "September 2018"
   },
   {
     "name": "FEVER (Fact Extraction and VERification)",
@@ -547,7 +547,7 @@
     "data_formats": "JSONL",
     "licence": "CC BY-SA 4.0",
     "web_url": "https://huggingface.co/datasets/fever/fever",
-    "release_year": "2018"
+    "release_date": "September 2018"
   },
   {
     "name": "Dolma",
@@ -557,7 +557,7 @@
     "data_formats": "JSONL",
     "licence": "ODC-BY",
     "web_url": "https://huggingface.co/datasets/allenai/dolma",
-    "release_year": "2023"
+    "release_date": "October 2023"
   },
   {
     "name": "FineWeb",
@@ -567,17 +567,17 @@
     "data_formats": "Parquet",
     "licence": "ODC-BY",
     "web_url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb",
-    "release_year": "2024"
+    "release_date": "April 2024"
   },
   {
     "name": "MNIST",
     "description": "70K grayscale 28×28 handwritten digit images (0–9); the most iconic machine learning benchmark dataset since 1998.",
-    "creator": "NIST / Yann LeCun, Corinna Cortes, Chris Burges",
+    "creator": "NIST",
     "size": "0.011 GB",
     "data_formats": "IDX",
     "licence": "Public Domain",
     "web_url": "https://huggingface.co/datasets/ylecun/mnist",
-    "release_year": "1998"
+    "release_date": "November 1998"
   },
   {
     "name": "Cityscapes",
@@ -587,17 +587,17 @@
     "data_formats": "PNG, JSON",
     "licence": "Custom Non-Commercial",
     "web_url": "https://www.cityscapes-dataset.com/",
-    "release_year": "2016"
+    "release_date": "June 2016"
   },
   {
     "name": "FFHQ (Flickr-Faces-HQ)",
     "description": "70K high-quality 1024×1024 face images from Flickr spanning diverse ages, ethnicities, and lighting conditions; used to train StyleGAN.",
-    "creator": "NVIDIA (Karras et al.)",
+    "creator": "NVIDIA",
     "size": "89.19 GB",
     "data_formats": "PNG",
     "licence": "CC BY-NC-SA 4.0",
     "web_url": "https://github.com/NVlabs/ffhq-dataset",
-    "release_year": "2018"
+    "release_date": "December 2018"
   },
   {
     "name": "Places365",
@@ -607,7 +607,7 @@
     "data_formats": "JPEG",
     "licence": "Non-Commercial Research Only",
     "web_url": "https://github.com/CSAILVision/places365",
-    "release_year": "2017"
+    "release_date": "August 2016"
   },
   {
     "name": "STL-10",
@@ -617,7 +617,7 @@
     "data_formats": "Binary",
     "licence": "Custom Non-Commercial",
     "web_url": "https://cs.stanford.edu/~acoates/stl10/",
-    "release_year": "2011"
+    "release_date": "April 2011"
   },
   {
     "name": "CIFAR-100",
@@ -627,7 +627,7 @@
     "data_formats": "Pickle",
     "licence": "CC BY",
     "web_url": "https://www.cs.toronto.edu/~kriz/cifar.html",
-    "release_year": "2009"
+    "release_date": "April 2009"
   },
   {
     "name": "ChestX-ray14 (NIH Chest X-rays)",
@@ -637,7 +637,7 @@
     "data_formats": "PNG, CSV",
     "licence": "CC BY 4.0",
     "web_url": "https://nihcc.app.box.com/v/ChestXray-NIHCC",
-    "release_year": "2017"
+    "release_date": "September 2017"
   },
   {
     "name": "TIMIT",
@@ -647,27 +647,27 @@
     "data_formats": "WAV, TXT",
     "licence": "LDC License",
     "web_url": "https://catalog.ldc.upenn.edu/LDC93S1",
-    "release_year": "1993"
+    "release_date": "February 1993"
   },
   {
     "name": "LJSpeech",
     "description": "13,100 short audio clips (~24 hours) of a single English speaker reading passages from 7 non-fiction books; the standard TTS benchmark.",
-    "creator": "Keith Ito (speaker: Linda Johnson)",
+    "creator": "LJSpeech",
     "size": "2.6 GB",
     "data_formats": "WAV, CSV",
     "licence": "Public Domain",
     "web_url": "https://keithito.com/LJ-Speech-Dataset/",
-    "release_year": "2017"
+    "release_date": "November 2017"
   },
   {
     "name": "SpeechCommands v2",
     "description": "105K one-second recordings of 35 spoken keywords by thousands of speakers for training keyword spotting and wake-word detection models.",
-    "creator": "Google / Pete Warden",
+    "creator": "Google",
     "size": "3.8 GB",
     "data_formats": "WAV",
     "licence": "CC BY 4.0",
     "web_url": "https://huggingface.co/datasets/google/speech_commands",
-    "release_year": "2018"
+    "release_date": "April 2018"
   },
   {
     "name": "TED-LIUM 3",
@@ -677,17 +677,17 @@
     "data_formats": "FLAC, SPH",
     "licence": "CC BY-NC-ND 3.0",
     "web_url": "https://www.openslr.org/51/",
-    "release_year": "2018"
+    "release_date": "May 2018"
   },
   {
     "name": "APPS (Automated Programming Progress Standard)",
     "description": "10K Python programming problems at introductory, interview, and competition levels with test cases for code generation evaluation.",
-    "creator": "UC Berkeley (Hendrycks et al.)",
+    "creator": "UC Berkeley",
     "size": "1.4 GB",
     "data_formats": "JSON",
     "licence": "MIT",
     "web_url": "https://huggingface.co/datasets/codeparrot/apps",
-    "release_year": "2021"
+    "release_date": "June 2021"
   },
   {
     "name": "SWE-bench",
@@ -697,17 +697,17 @@
     "data_formats": "JSON",
     "licence": "MIT",
     "web_url": "https://huggingface.co/datasets/princeton-nlp/SWE-bench",
-    "release_year": "2023"
+    "release_date": "October 2023"
   },
   {
     "name": "DS-1000",
     "description": "1,000 Python data science coding problems from Stack Overflow spanning NumPy, Pandas, Matplotlib, TensorFlow, PyTorch, Scipy, and Sklearn.",
-    "creator": "UCLA / Stanford University (Lai et al.)",
+    "creator": "UCLA / Stanford University",
     "size": "0.003 GB",
     "data_formats": "JSON",
     "licence": "CC BY-NC 4.0",
     "web_url": "https://huggingface.co/datasets/xlangai/DS-1000",
-    "release_year": "2022"
+    "release_date": "December 2022"
   },
   {
     "name": "CodeContests",
@@ -717,7 +717,7 @@
     "data_formats": "Parquet",
     "licence": "Apache 2.0 / CC BY 4.0",
     "web_url": "https://huggingface.co/datasets/deepmind/code_contests",
-    "release_year": "2022"
+    "release_date": "August 2022"
   },
   {
     "name": "Visual Genome",
@@ -727,27 +727,27 @@
     "data_formats": "JPEG, JSON",
     "licence": "CC BY 4.0",
     "web_url": "https://visualgenome.org/",
-    "release_year": "2017"
+    "release_date": "February 2017"
   },
   {
     "name": "Flickr30K",
     "description": "31,783 Flickr images each annotated with 5 crowd-sourced captions; a key benchmark for image captioning and image-text retrieval.",
-    "creator": "University of Illinois at Urbana-Champaign (UIUC)",
+    "creator": "University of Illinois at Urbana-Champaign",
     "size": "4.4 GB",
     "data_formats": "JPEG, TXT",
     "licence": "Research Only",
     "web_url": "https://huggingface.co/datasets/nlphuji/flickr30k",
-    "release_year": "2014"
+    "release_date": "October 2014"
   },
   {
     "name": "NoCaps",
     "description": "4,500 Open Images validation images with ~45,000 human-written captions covering novel objects not seen in COCO training data, for zero-shot image captioning evaluation.",
-    "creator": "Allen Institute for AI / University of Illinois (UIUC) / Cornell University",
+    "creator": "Allen Institute for AI / University of Illinois / Cornell University",
     "size": "4.76 GB",
     "data_formats": "JSON, JPEG",
     "licence": "CC BY 4.0",
     "web_url": "https://nocaps.org/",
-    "release_year": "2019"
+    "release_date": "October 2019"
   },
   {
     "name": "LLaVA-Instruct-150K",
@@ -757,27 +757,27 @@
     "data_formats": "JSON, JPEG",
     "licence": "CC BY 4.0",
     "web_url": "https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K",
-    "release_year": "2023"
+    "release_date": "April 2023"
   },
   {
     "name": "ShareGPT",
     "description": "~90K real multi-turn ChatGPT conversations voluntarily shared by users online; widely used for Vicuna and other instruction-tuned models.",
-    "creator": "ShareGPT community",
+    "creator": "ShareGPT",
     "size": "4.19 GB",
     "data_formats": "JSON",
     "licence": "No Formal License",
     "web_url": "https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered",
-    "release_year": "2023"
+    "release_date": "March 2023"
   },
   {
     "name": "LIMA (Less Is More for Alignment)",
     "description": "1,030 carefully hand-selected prompt/response pairs from community forums and expert writing, showing quality beats quantity for alignment.",
-    "creator": "Meta AI (Zhou et al.)",
+    "creator": "Meta AI",
     "size": "0.003 GB",
     "data_formats": "JSON",
     "licence": "CC BY-NC-SA 3.0",
     "web_url": "https://huggingface.co/datasets/GAIR/lima",
-    "release_year": "2023"
+    "release_date": "May 2023"
   },
   {
     "name": "OpenOrca",
@@ -787,7 +787,7 @@
     "data_formats": "Parquet",
     "licence": "MIT",
     "web_url": "https://huggingface.co/datasets/Open-Orca/OpenOrca",
-    "release_year": "2023"
+    "release_date": "June 2023"
   },
   {
     "name": "WizardLM Evol-Instruct 70K",
@@ -797,17 +797,17 @@
     "data_formats": "JSON",
     "licence": "Non-Commercial Research Only",
     "web_url": "https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_70k",
-    "release_year": "2023"
+    "release_date": "April 2023"
   },
   {
     "name": "Alpaca-GPT4",
     "description": "52K Stanford Alpaca instructions regenerated using GPT-4 for significantly higher quality instruction-following demonstrations.",
-    "creator": "University of Illinois at Urbana-Champaign (UIUC) / Microsoft Research (Peng et al.)",
+    "creator": "University of Illinois / Microsoft Research",
     "size": "0.048 GB",
     "data_formats": "JSON",
     "licence": "CC BY-NC 4.0",
     "web_url": "https://huggingface.co/datasets/vicgalle/alpaca-gpt4",
-    "release_year": "2023"
+    "release_date": "April 2023"
   },
   {
     "name": "Anthropic HH-RLHF",
@@ -817,7 +817,7 @@
     "data_formats": "JSON",
     "licence": "MIT",
     "web_url": "https://huggingface.co/datasets/Anthropic/hh-rlhf",
-    "release_year": "2022"
+    "release_date": "April 2022"
   },
   {
     "name": "UltraFeedback",
@@ -827,7 +827,7 @@
     "data_formats": "JSON",
     "licence": "MIT",
     "web_url": "https://huggingface.co/datasets/openbmb/UltraFeedback",
-    "release_year": "2023"
+    "release_date": "October 2023"
   },
   {
     "name": "CommonsenseQA",
@@ -837,7 +837,7 @@
     "data_formats": "JSON",
     "licence": "MIT",
     "web_url": "https://huggingface.co/datasets/tau/commonsense_qa",
-    "release_year": "2019"
+    "release_date": "November 2019"
   },
   {
     "name": "PIQA (Physical Intuition QA)",
@@ -847,7 +847,7 @@
     "data_formats": "JSON",
     "licence": "AFL-3.0",
     "web_url": "https://huggingface.co/datasets/ybisk/piqa",
-    "release_year": "2019"
+    "release_date": "November 2019"
   },
   {
     "name": "SocialIQA",
@@ -857,7 +857,7 @@
     "data_formats": "JSON",
     "licence": "CC BY 4.0",
     "web_url": "https://huggingface.co/datasets/allenai/social_i_qa",
-    "release_year": "2019"
+    "release_date": "September 2019"
   },
   {
     "name": "DROP (Discrete Reasoning Over Paragraphs)",
@@ -867,7 +867,7 @@
     "data_formats": "JSON",
     "licence": "CC BY 4.0",
     "web_url": "https://huggingface.co/datasets/ucinlp/drop",
-    "release_year": "2019"
+    "release_date": "April 2019"
   },
   {
     "name": "MT-Bench",
@@ -877,17 +877,17 @@
     "data_formats": "JSONL",
     "licence": "Apache 2.0",
     "web_url": "https://huggingface.co/datasets/HuggingFaceH4/mt_bench_prompts",
-    "release_year": "2023"
+    "release_date": "June 2023"
   },
   {
     "name": "MATH (Competition Mathematics)",
     "description": "12,500 high-school and competition math problems (AMC, AIME, etc.) with step-by-step LaTeX solutions across 5 difficulty levels.",
-    "creator": "UC Berkeley (Hendrycks et al.)",
+    "creator": "UC Berkeley",
     "size": "0.005 GB",
     "data_formats": "JSON",
     "licence": "MIT",
     "web_url": "https://huggingface.co/datasets/hendrycks/competition_math",
-    "release_year": "2021"
+    "release_date": "November 2021"
   },
   {
     "name": "MMMU (Massive Multidisciplinary Multimodal Understanding)",
@@ -897,7 +897,7 @@
     "data_formats": "Parquet",
     "licence": "Apache 2.0",
     "web_url": "https://huggingface.co/datasets/MMMU/MMMU",
-    "release_year": "2023"
+    "release_date": "November 2023"
   },
   {
     "name": "FLORES-200",
@@ -907,17 +907,17 @@
     "data_formats": "TSV",
     "licence": "CC BY-SA 4.0",
     "web_url": "https://huggingface.co/datasets/facebook/flores",
-    "release_year": "2022"
+    "release_date": "May 2022"
   },
   {
     "name": "OpenWebMath",
     "description": "6.3M high-quality mathematical web documents (14.7B tokens) extracted from Common Crawl for pretraining math-capable LLMs.",
-    "creator": "University of Toronto / Vector Institute (Paster et al.)",
+    "creator": "University of Toronto / Vector Institute",
     "size": "27.4 GB",
     "data_formats": "Parquet",
     "licence": "ODC-BY",
     "web_url": "https://huggingface.co/datasets/open-web-math/open-web-math",
-    "release_year": "2023"
+    "release_date": "October 2023"
   },
   {
     "name": "MIMIC-III",
@@ -927,6 +927,6 @@
     "data_formats": "CSV, TXT",
     "licence": "PhysioNet Credentialed",
     "web_url": "https://physionet.org/content/mimiciii/",
-    "release_year": "2015"
+    "release_date": "May 2015"
   }
 ]
