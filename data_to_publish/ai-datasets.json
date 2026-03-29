@@ -17,7 +17,7 @@
     "data_formats": "TSV, JSON",
     "licence": "Various",
     "web_url": "https://gluebenchmark.com/",
-    "release_date": "October 2018"
+    "release_date": "April 2018"
   },
   {
     "name": "The Pile",
@@ -37,7 +37,7 @@
     "data_formats": "JSONL",
     "licence": "ODC-BY",
     "web_url": "https://huggingface.co/datasets/allenai/c4",
-    "release_date": "October 2019"
+    "release_date": "April 2019"
   },
   {
     "name": "Common Crawl",
@@ -47,7 +47,7 @@
     "data_formats": "WARC, WET, WAT",
     "licence": "Public Domain",
     "web_url": "https://commoncrawl.org/",
-    "release_date": "September 2011"
+    "release_date": "2011"
   },
   {
     "name": "OpenWebText",
@@ -57,7 +57,7 @@
     "data_formats": "Text",
     "licence": "MIT",
     "web_url": "https://huggingface.co/datasets/Skylion007/openwebtext",
-    "release_date": "March 2019"
+    "release_date": "April 2019"
   },
   {
     "name": "RedPajama-Data-1T",
@@ -87,7 +87,7 @@
     "data_formats": "Text",
     "licence": "CC BY-SA 4.0",
     "web_url": "https://huggingface.co/datasets/Salesforce/wikitext",
-    "release_date": "December 2016"
+    "release_date": "September 2016"
   },
   {
     "name": "MultiNLI",
@@ -127,7 +127,7 @@
     "data_formats": "Parquet",
     "licence": "CC BY 4.0",
     "web_url": "https://huggingface.co/collections/laion/re-laion-5b-research",
-    "release_date": "October 2023"
+    "release_date": "August 2024"
   },
   {
     "name": "Open Images v7",
@@ -137,7 +137,7 @@
     "data_formats": "JPEG, CSV",
     "licence": "CC BY 4.0",
     "web_url": "https://storage.googleapis.com/openimages/web/index.html",
-    "release_date": "September 2022"
+    "release_date": "October 2022"
   },
   {
     "name": "ADE20K",
@@ -167,7 +167,7 @@
     "data_formats": "Pickle",
     "licence": "No Explicit License",
     "web_url": "https://www.cs.toronto.edu/~kriz/cifar.html",
-    "release_date": "April 2009"
+    "release_date": "2009"
   },
   {
     "name": "LAION-400M",
@@ -197,7 +197,7 @@
     "data_formats": "MP3, TSV",
     "licence": "CC0",
     "web_url": "https://commonvoice.mozilla.org/",
-    "release_date": "July 2017"
+    "release_date": "November 2017"
   },
   {
     "name": "VoxCeleb2",
@@ -217,7 +217,7 @@
     "data_formats": "Opus, JSONL",
     "licence": "Apache 2.0",
     "web_url": "https://github.com/SpeechColab/GigaSpeech",
-    "release_date": "October 2021"
+    "release_date": "August 2021"
   },
   {
     "name": "The Stack",
@@ -227,7 +227,7 @@
     "data_formats": "Parquet",
     "licence": "Various Open-Source",
     "web_url": "https://huggingface.co/datasets/bigcode/the-stack",
-    "release_date": "November 2022"
+    "release_date": "October 2022"
   },
   {
     "name": "CodeSearchNet",
@@ -277,7 +277,7 @@
     "data_formats": "JSON, JPEG",
     "licence": "CC BY 4.0",
     "web_url": "https://visualqa.org/",
-    "release_date": "May 2017"
+    "release_date": "April 2017"
   },
   {
     "name": "ShareGPT4V",
@@ -327,7 +327,7 @@
     "data_formats": "JSONL",
     "licence": "CC BY-NC 4.0",
     "web_url": "https://huggingface.co/datasets/stingning/ultrachat",
-    "release_date": "May 2023"
+    "release_date": "April 2023"
   },
   {
     "name": "Dolly 15K",
@@ -347,7 +347,7 @@
     "data_formats": "CSV",
     "licence": "MIT",
     "web_url": "https://github.com/hendrycks/test",
-    "release_date": "January 2021"
+    "release_date": "September 2020"
   },
   {
     "name": "HellaSwag",
@@ -377,7 +377,7 @@
     "data_formats": "CSV",
     "licence": "Apache 2.0",
     "web_url": "https://github.com/sylinrl/TruthfulQA",
-    "release_date": "October 2021"
+    "release_date": "September 2021"
   },
   {
     "name": "GSM8K (Grade School Math 8K)",
@@ -407,7 +407,7 @@
     "data_formats": "JSONL",
     "licence": "Apache 2.0",
     "web_url": "https://winogrande.allenai.org/",
-    "release_date": "November 2019"
+    "release_date": "July 2019"
   },
   {
     "name": "SuperGLUE",
@@ -417,7 +417,7 @@
     "data_formats": "JSONL",
     "licence": "Various",
     "web_url": "https://super.gluebenchmark.com/",
-    "release_date": "July 2019"
+    "release_date": "May 2019"
   },
   {
     "name": "MS MARCO",
@@ -437,7 +437,7 @@
     "data_formats": "JSONL",
     "licence": "CC BY-SA 3.0",
     "web_url": "https://ai.google.com/research/NaturalQuestions",
-    "release_date": "January 2019"
+    "release_date": "August 2019"
   },
   {
     "name": "CoQA",
@@ -457,7 +457,7 @@
     "data_formats": "JSONL",
     "licence": "ODC-BY",
     "web_url": "https://huggingface.co/datasets/mc4",
-    "release_date": "October 2019"
+    "release_date": "October 2020"
   },
   {
     "name": "OSCAR",
@@ -467,7 +467,7 @@
     "data_formats": "JSONL",
     "licence": "Custom / Various",
     "web_url": "https://oscar-project.org/",
-    "release_date": "October 2019"
+    "release_date": "2019"
   },
   {
     "name": "Pile of Law",
@@ -477,7 +477,7 @@
     "data_formats": "JSONL",
     "licence": "CC BY 4.0",
     "web_url": "https://huggingface.co/datasets/pile-of-law/pile-of-law",
-    "release_date": "February 2022"
+    "release_date": "July 2022"
   },
   {
     "name": "SNLI (Stanford Natural Language Inference)",
@@ -497,7 +497,7 @@
     "data_formats": "JSON",
     "licence": "Custom",
     "web_url": "https://huggingface.co/datasets/abisee/cnn_dailymail",
-    "release_date": "June 2015"
+    "release_date": "December 2015"
   },
   {
     "name": "XSum (Extreme Summarization)",
@@ -507,7 +507,7 @@
     "data_formats": "JSON",
     "licence": "Custom",
     "web_url": "https://huggingface.co/datasets/EdinburghNLP/xsum",
-    "release_date": "October 2018"
+    "release_date": "August 2018"
   },
   {
     "name": "SST-2 (Stanford Sentiment Treebank)",
@@ -517,7 +517,7 @@
     "data_formats": "TSV",
     "licence": "Custom",
     "web_url": "https://huggingface.co/datasets/stanfordnlp/sst2",
-    "release_date": "October 2013"
+    "release_date": "August 2013"
   },
   {
     "name": "RACE (ReAding Comprehension from Examinations)",
@@ -547,7 +547,7 @@
     "data_formats": "JSONL",
     "licence": "CC BY-SA 4.0",
     "web_url": "https://huggingface.co/datasets/fever/fever",
-    "release_date": "September 2018"
+    "release_date": "March 2018"
   },
   {
     "name": "Dolma",
@@ -557,7 +557,7 @@
     "data_formats": "JSONL",
     "licence": "ODC-BY",
     "web_url": "https://huggingface.co/datasets/allenai/dolma",
-    "release_date": "October 2023"
+    "release_date": "August 2023"
   },
   {
     "name": "FineWeb",
@@ -567,7 +567,7 @@
     "data_formats": "Parquet",
     "licence": "ODC-BY",
     "web_url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb",
-    "release_date": "April 2024"
+    "release_date": "May 2024"
   },
   {
     "name": "MNIST",
@@ -587,7 +587,7 @@
     "data_formats": "PNG, JSON",
     "licence": "Custom Non-Commercial",
     "web_url": "https://www.cityscapes-dataset.com/",
-    "release_date": "June 2016"
+    "release_date": "February 2016"
   },
   {
     "name": "FFHQ (Flickr-Faces-HQ)",
@@ -627,7 +627,7 @@
     "data_formats": "Pickle",
     "licence": "CC BY",
     "web_url": "https://www.cs.toronto.edu/~kriz/cifar.html",
-    "release_date": "April 2009"
+    "release_date": "2009"
   },
   {
     "name": "ChestX-ray14 (NIH Chest X-rays)",
@@ -637,7 +637,7 @@
     "data_formats": "PNG, CSV",
     "licence": "CC BY 4.0",
     "web_url": "https://nihcc.app.box.com/v/ChestXray-NIHCC",
-    "release_date": "September 2017"
+    "release_date": "July 2017"
   },
   {
     "name": "TIMIT",
@@ -657,7 +657,7 @@
     "data_formats": "WAV, CSV",
     "licence": "Public Domain",
     "web_url": "https://keithito.com/LJ-Speech-Dataset/",
-    "release_date": "November 2017"
+    "release_date": "July 2017"
   },
   {
     "name": "SpeechCommands v2",
@@ -687,7 +687,7 @@
     "data_formats": "JSON",
     "licence": "MIT",
     "web_url": "https://huggingface.co/datasets/codeparrot/apps",
-    "release_date": "June 2021"
+    "release_date": "May 2021"
   },
   {
     "name": "SWE-bench",
@@ -707,7 +707,7 @@
     "data_formats": "JSON",
     "licence": "CC BY-NC 4.0",
     "web_url": "https://huggingface.co/datasets/xlangai/DS-1000",
-    "release_date": "December 2022"
+    "release_date": "November 2022"
   },
   {
     "name": "CodeContests",
@@ -717,7 +717,7 @@
     "data_formats": "Parquet",
     "licence": "Apache 2.0 / CC BY 4.0",
     "web_url": "https://huggingface.co/datasets/deepmind/code_contests",
-    "release_date": "August 2022"
+    "release_date": "February 2022"
   },
   {
     "name": "Visual Genome",
@@ -727,7 +727,7 @@
     "data_formats": "JPEG, JSON",
     "licence": "CC BY 4.0",
     "web_url": "https://visualgenome.org/",
-    "release_date": "February 2017"
+    "release_date": "July 2017"
   },
   {
     "name": "Flickr30K",
@@ -737,7 +737,7 @@
     "data_formats": "JPEG, TXT",
     "licence": "Research Only",
     "web_url": "https://huggingface.co/datasets/nlphuji/flickr30k",
-    "release_date": "October 2014"
+    "release_date": "2014"
   },
   {
     "name": "NoCaps",
@@ -747,7 +747,7 @@
     "data_formats": "JSON, JPEG",
     "licence": "CC BY 4.0",
     "web_url": "https://nocaps.org/",
-    "release_date": "October 2019"
+    "release_date": "December 2018"
   },
   {
     "name": "LLaVA-Instruct-150K",
@@ -837,7 +837,7 @@
     "data_formats": "JSON",
     "licence": "MIT",
     "web_url": "https://huggingface.co/datasets/tau/commonsense_qa",
-    "release_date": "November 2019"
+    "release_date": "June 2019"
   },
   {
     "name": "PIQA (Physical Intuition QA)",
@@ -857,7 +857,7 @@
     "data_formats": "JSON",
     "licence": "CC BY 4.0",
     "web_url": "https://huggingface.co/datasets/allenai/social_i_qa",
-    "release_date": "September 2019"
+    "release_date": "November 2019"
   },
   {
     "name": "DROP (Discrete Reasoning Over Paragraphs)",
@@ -867,7 +867,7 @@
     "data_formats": "JSON",
     "licence": "CC BY 4.0",
     "web_url": "https://huggingface.co/datasets/ucinlp/drop",
-    "release_date": "April 2019"
+    "release_date": "March 2019"
   },
   {
     "name": "MT-Bench",
@@ -887,7 +887,7 @@
     "data_formats": "JSON",
     "licence": "MIT",
     "web_url": "https://huggingface.co/datasets/hendrycks/competition_math",
-    "release_date": "November 2021"
+    "release_date": "March 2021"
   },
   {
     "name": "MMMU (Massive Multidisciplinary Multimodal Understanding)",
@@ -907,7 +907,7 @@
     "data_formats": "TSV",
     "licence": "CC BY-SA 4.0",
     "web_url": "https://huggingface.co/datasets/facebook/flores",
-    "release_date": "May 2022"
+    "release_date": "June 2022"
   },
   {
     "name": "OpenWebMath",
@@ -927,6 +927,6 @@
     "data_formats": "CSV, TXT",
     "licence": "PhysioNet Credentialed",
     "web_url": "https://physionet.org/content/mimiciii/",
-    "release_date": "May 2015"
+    "release_date": "August 2015"
   }
 ]
